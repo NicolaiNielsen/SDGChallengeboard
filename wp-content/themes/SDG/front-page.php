@@ -2,6 +2,8 @@
 
     <div class="container pt-2 pb-2">
 
+    <img class="FN1" src="img/1.jpg" alt="FN 1">
+
         <h1 align="center">The Challenge board</h1>
         <h2 align="center">Creating collaboration between the worldsleading organisations and the minds of tomorrow</h2>
             
