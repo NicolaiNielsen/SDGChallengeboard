@@ -2,7 +2,7 @@
 
     <div class="container">
 
-        <h1>test</hi>
+        <h1 align="center">The Challenge board</h1>
             
 
         <div class="row">
