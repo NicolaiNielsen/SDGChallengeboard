@@ -23,6 +23,8 @@ function include_jquery()
 
 }
 
+add_action('wp_enqueue_scripts', 'include_jquery');
+
 function loadjs()
 {
     wp_register_script('customjs', get_template_directory_uri() . '/js/scripts.js', '', 1, true);
