@@ -9,6 +9,6 @@
 <body <?php body_class();?>>
 
 
-<header>
-    
+<header class="sticky-top">
+
 </header>
