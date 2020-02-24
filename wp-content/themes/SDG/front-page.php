@@ -5,13 +5,17 @@
         <div class="row">
 
                 <div class="col">
-                    left side
+                    Left side
                 </div>
 
                 <div class="col">
-                    rightside
+                    Right side
                 </div>
+
+
         </div>
+
+
     </div>
 
 <?php get_footer();?>
