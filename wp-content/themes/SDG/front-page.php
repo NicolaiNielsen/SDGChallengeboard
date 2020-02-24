@@ -2,7 +2,7 @@
 
     <div class="container">
 
-        <h1 align="center">The Challenge board</h1>
+        <h1 align="center"; font-size="13px"; padding="5px";>The Challenge board</h1>
             
 
         <div class="row">
