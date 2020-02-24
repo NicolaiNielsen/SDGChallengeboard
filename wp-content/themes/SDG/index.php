@@ -1,1 +1,0 @@
-<img class="FN1" src="img/1.jpg" alt="FN 1">
