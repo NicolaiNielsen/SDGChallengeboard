@@ -1,7 +1,9 @@
 <?php get_header();?>
 
     <div class="container">
+
         <div class="row">
+
                 <div class="col">
                     left side
                 </div>
@@ -10,7 +12,6 @@
                     rightside
                 </div>
         </div>
-
     </div>
 
 <?php get_footer();?>
