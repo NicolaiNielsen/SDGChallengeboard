@@ -1,8 +1,9 @@
 <?php get_header();?>
 
-    <div class="container pt-5 pb-5">
+    <div class="container pt-2 pb-2">
 
-        <h1 align="center"; font-size="13px"; padding="5px">The Challenge board</h1>
+        <h1 align="center">The Challenge board</h1>
+        <h2 align="center">Creating collaboration between the worldsleading organisations and the minds of tomorrow</h2>
             
 
         <div class="row">
