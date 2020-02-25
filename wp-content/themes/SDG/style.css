@@ -1,5 +1,7 @@
 body {
     background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
 }
 
 header {
@@ -9,15 +11,29 @@ header {
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 45px;
 }
 
 h2 {
-    font-size: 15px;
+    font-size: 20px;
 }
 
-.imageList {
+#imageList {
     font-size: 0px;
-    width: 225px;
+    width: 1140px;
     margin: 0 auto;
+}
+
+#imageList a {
+    margin: 2px;
+    border: 3px solid transparent;
+    display: inline-block;
+}
+
+#imageList a:hover {
+    border-color:	#000000;
+}
+
+h4 {
+    font-size: 5 !important;
 }
