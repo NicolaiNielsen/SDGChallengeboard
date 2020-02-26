@@ -31,8 +31,11 @@
     <div class="container2 pt-2 pb-2">
         <h4 align="center">In September 2015, 193 world leaders agreed to 17 Global Goals for Sustainable Development. If <br> 
         these Goals are completed, it would mean an end to extreme poverty, inequality and climate change <br> by 2030.</h4>
-    </div>          
+    </div>
     
-    <button class="w3-button w3-black">Black</button>
+    <div class="container">
+        <a href ="#"> Button </a>
+    </div>
+    
 
 <?php get_footer();?>
