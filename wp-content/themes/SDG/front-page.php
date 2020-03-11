@@ -2,8 +2,9 @@
 
     <div class="container pt-2 pb-2">
 
-        <h2 align="center">The Challenge board</h2>
-        <h2 align="center">Creating cojjaboration between the worldsleading organisations and the minds of tomorrow</h2>
+        <h1 align="center"><?php the_title();?></h1>
+        <h2 align="center">Creating collaboration between the worldsleading organisations and the minds of tomorrow</h2>
+        <h2 
 
     </div>
 
