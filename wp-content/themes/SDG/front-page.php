@@ -38,9 +38,9 @@
         these Goals are completed, it would mean an end to extreme poverty, inequality and climate change <br> by 2030.</h4>
     </div>
     
-
-        <a href="<?php the_permalink();?>" class="btn btn-success">Post</a>
-
+    <div style="text-align:center;">
+        <a href="<?php the_permalink();?>" class="btn btn-dark">POST A CHALLENGE</a>
+        </div>
     
 
 <?php get_footer();?>
