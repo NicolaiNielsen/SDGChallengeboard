@@ -1,6 +1,6 @@
 <?php get_header();?>
 
-    <div class="container pt-2 pb-2">
+    <div class="container pt-4">
 
         <h1 align="center"><?php the_title();?></h1>
 
@@ -33,13 +33,14 @@
             <a href="/SDGChallengeboard/wp-content/themes/SDG/img/17.jpg"><img class="FN17" src="/SDGChallengeboard/wp-content/themes/SDG/img/17.jpg" alt="FN 17"></a>
         </div>
 
-    <div class="container2 pt-2 pb-2">
-        <h4 align="center">In September 2015, 193 world leaders agreed to 17 Global Goals for Sustainable Development. If <br> 
-        these Goals are completed, it would mean an end to extreme poverty, inequality and climate change <br> by 2030.</h4>
+
+    <div class="container2 pt-3 pb-2">
+        <h3 align="center">In September 2015, 193 world leaders agreed to 17 Global Goals for Sustainable Development. If <br> 
+        these Goals are completed, it would mean an end to extreme poverty, inequality and climate change <br> by 2030.</h3>
     </div>
     
     <div style="text-align:center;">
-        <a href="<?php the_permalink();?>" class="btn btn-dark">POST A CHALLENGE</a>
+        <a href="http://localhost/SDGChallengeboard/submit/" class="btn btn-dark">POST A CHALLENGE</a>
         </div>
     
 
