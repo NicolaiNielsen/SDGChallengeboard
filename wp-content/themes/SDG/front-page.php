@@ -3,8 +3,12 @@
     <div class="container pt-2 pb-2">
 
         <h1 align="center"><?php the_title();?></h1>
-        <h2 align="center">Creating collaboration between the worldsleading organisations and the minds of tomorrow</h2>
-        <h2 
+
+        <?php if (have_posts()) : while(have_posts()) : the_post();?>
+
+            <?php the_content();?>
+
+        <?php endwhile; endif;?>
 
     </div>
 
@@ -34,9 +38,9 @@
         these Goals are completed, it would mean an end to extreme poverty, inequality and climate change <br> by 2030.</h4>
     </div>
     
-    <div class="container">
-        <a href ="#"> Button </a>
-    </div>
+
+        <a href="<?php the_permalink();?>" class="btn btn-success">Post</a>
+
     
 
 <?php get_footer();?>
