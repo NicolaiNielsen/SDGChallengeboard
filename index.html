@@ -22,7 +22,7 @@ img.emoji {
 }
 </style>
 	<link rel='stylesheet' id='wp-block-library-css'  href='https://nicolainielsen.github.io/SDGChallengeboard/wp-includes/css/dist/block-library/style.min.css?ver=5.3.2' type='text/css' media='all' />
-<link rel='stylesheet' id='usp_style-css'  href='https://nicolainielsen.github.io/SDGChallengeboard/wp-content/plugins/user-submitted-posts/resources/usp.css?ver=20191110' type='text/css' media='all' />
+<link rel='stylesheet' id='usp_style-css'  href='https://nicolainielsen.github.io/SDGChallengeboard/wp-content/themes/SDG/usp/usp.css?ver=20191110' type='text/css' media='all' />
 <link rel='stylesheet' id='bootstrap-css'  href='https://nicolainielsen.github.io/SDGChallengeboard/wp-content/themes/SDG/css/bootstrap.min.css?ver=5.3.2' type='text/css' media='all' />
 <link rel='stylesheet' id='style-css'  href='https://nicolainielsen.github.io/SDGChallengeboard/wp-content/themes/SDG/style.css?ver=5.3.2' type='text/css' media='all' />
 <script type='text/javascript' src='https://nicolainielsen.github.io/SDGChallengeboard/wp-content/themes/SDG/js/jquery-3.4.1.min.js?ver=1'></script>
@@ -58,8 +58,8 @@ var usp_custom_field = "usp_custom_field"; var usp_custom_checkbox = "usp_custom
 
 
 
-<!-- <div class="menu-top-menu-container"><ul id="menu-top-menu" class="menu"><li id="menu-item-99" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-99"><a href="https://nicolainielsen.github.io/SDGChallengeboard/submit/">Submit</a></li>
-</ul></div>
+
+
     <div class="container pt-4">
 
         <h1 align="center">The Challenge Board</h1>
@@ -102,9 +102,22 @@ var usp_custom_field = "usp_custom_field"; var usp_custom_checkbox = "usp_custom
         these Goals are completed, it would mean an end to extreme poverty, inequality and climate change <br> by 2030.</h3>
     </div>
     
-    <div style="text-align:center;">
-        <a href="https://nicolainielsen.github.io/SDGChallengeboard/submit/" class="btn btn-dark">POST A CHALLENGE</a>
+
+    <div class="postbutton">
+        <button data-modal-target="#modal1" class="btn btn-dark">POST A CHALLENGE</button>
+    </div>
+    <div class="modal1" id="modal1">
+        <div class="modal-header">
+        <div class="title">Example Modal</div>
+        <button data-close-button class="close-button">&times;</button>
         </div>
+        <div class="modal-body">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+        </div>
+    </div>
+    <div id="overlay"></div>
+
+
     
 
 <script type='text/javascript' src='https://nicolainielsen.github.io/SDGChallengeboard/wp-content/themes/SDG/js/scripts.js?ver=1'></script>
