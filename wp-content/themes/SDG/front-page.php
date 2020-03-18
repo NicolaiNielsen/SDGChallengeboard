@@ -1,5 +1,6 @@
 <?php get_header();?>
 
+
     <div class="container pt-4">
 
         <h1 align="center"><?php the_title();?></h1>
@@ -42,6 +43,21 @@
     <div style="text-align:center;">
         <a href="http://localhost/SDGChallengeboard/submit/" class="btn btn-dark">POST A CHALLENGE</a>
         </div>
+
+
+        <button data-modal-target="#modal1">Open Modal</button>
+  <div class="modal1" id="modal1">
+    <div class="modal-header">
+      <div class="title">Example Modal</div>
+      <button data-close-button class="close-button">&times;</button>
+    </div>
+    <div class="modal-body">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse quod alias ut illo doloremque eum ipsum obcaecati distinctio debitis reiciendis quae quia soluta totam doloribus quos nesciunt necessitatibus, consectetur quisquam accusamus ex, dolorum, dicta vel? Nostrum voluptatem totam, molestiae rem at ad autem dolor ex aperiam. Amet assumenda eos architecto, dolor placeat deserunt voluptatibus tenetur sint officiis perferendis atque! Voluptatem maxime eius eum dolorem dolor exercitationem quis iusto totam! Repudiandae nobis nesciunt sequi iure! Eligendi, eius libero. Ex, repellat sapiente!
+    </div>
+  </div>
+  <div id="overlay"></div>
+
+
     
 
 <?php get_footer();?>
