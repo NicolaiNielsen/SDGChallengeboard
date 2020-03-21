@@ -9,6 +9,7 @@ body {
     width: 100%;
     height: 80px;
     display: block; 
+    box-shadow: 0 1px 3px rgba(0,0,0,.25);
 }
 
 .inner_header {
@@ -24,14 +25,46 @@ body {
     float: left;
 }
 
+.footer {
+  background-color: #21272E;
+  width: 100%;
+  height: 80px;
+  margin-top: -80px;
+  display: block; 
+  box-shadow: 0 1px 3px rgba(0,0,0,.25);
+  position: relative;
+  clear: both;
+  left: 0;
+  bottom: 0;
+  text-align: center;
+  align-items: center;
+  
+}
+
+.inner_footer {
+  width: 90%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
 .logo_container h1{
     color: white;
     height: 100%;
-    display: table-cell;
-    vertical-align: middle;
+    text-align: center;
     font-size: 32px;
     font-family: 'Montserrat', sans-serif;
 }
+.logo_container_footer h1{
+  color: white;
+  height: 100%;
+  width: 50%;
+  margin: 0 auto;
+  font-size: 32px;
+  padding-top: 19px;
+  font-family: 'Montserrat', sans-serif;
+}
+
 
 .navigation {
     float: right;
@@ -70,6 +103,14 @@ h3 {
     font-size: 17px;
   }
 
+h4 { 
+    font-size: 1.3rem;
+    position: relative;
+    left: 30px;
+}  
+
+
+
 
 #imageList {
     font-size: 0px;
@@ -101,6 +142,13 @@ footer {
 .btn-dark {
     margin-top:10px;
 }
+.btn-secondary  {
+  margin-left: 65%;
+} 
+
+
+
+/* Modal submit */
 
 .modal1 {
     position: fixed;
@@ -114,7 +162,8 @@ footer {
     max-height: 80;
     max-width: 80%;
   }
-  
+
+
   .modal1.active {
     transform: translate(-50%, -50%) scale(1);
   }
@@ -123,9 +172,13 @@ footer {
     padding: 10px 15px;
     display: flex;
     justify-content: space-between;
-    border-bottom: 1px solid black;
-    height: 300px;
+    border-bottom: thin dashed rgba(0,0,0,.24);
     background: #f5f5f5;
+  }
+
+  .modal-image {
+    justify-content: space-between;
+    z-index: 3;
   }
   
   .modal-header .title {
@@ -138,8 +191,12 @@ footer {
     border: none;
     outline: none;
     background: none;
-    font-size: 1.25rem;
+    font-size: 2.25rem;
     font-weight: bold;
+    position: absolute;
+    left: 53.7rem;
+    top: -0.5rem;
+    z-index: 10;
   }
   
   .modal-body {
@@ -162,3 +219,90 @@ footer {
     opacity: 1;
     pointer-events: all;
   }
+
+  /* Modal post */
+
+  .modal2 {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(1);
+    transition: 200ms ease-in-out;
+    z-index: 10;
+    background-color: white;
+    width: 900px;
+    max-height: 80;
+    max-width: 80%;
+  }
+
+  .modal-header2 {
+    padding: 10px 15px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: thin dashed rgba(0,0,0,.24);
+    background: #f5f5f5;
+  }
+
+  .modal-image {
+    justify-content: space-between;
+    z-index: 3;
+  }
+  
+  .modal-header2 .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+  }
+  
+  .modal-header2 .close-button {
+    cursor: pointer;
+    border: none;
+    outline: none;
+    background: none;
+    font-size: 2.25rem;
+    font-weight: bold;
+    position: absolute;
+    left: 53.7rem;
+    top: -0.5rem;
+    z-index: 10;
+  }
+  
+  .modal-body {
+    padding: 10px 15px;
+  }
+  
+  #overlay2 {
+    position: fixed;
+    opacity: 1;
+    transition: 200ms ease-in-out;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, .5);
+    pointer-events: none;
+  }
+  
+.goal-dual {
+  display: flex;
+  flex-wrap: wrap;
+  top: 20%;
+  left: 20%;
+  float: left;
+  width: 100%;
+  box-sizing: border-box;
+  padding-top: 70px;
+  height: 100%;
+  padding-left: 10%;
+}
+
+#imagegoal1 {
+  width: 300px;
+  height: 300px;
+  padding-right: 5%;
+
+}
+
+.content-container {
+  width: 60%;
+  padding-left: 10%;
+}

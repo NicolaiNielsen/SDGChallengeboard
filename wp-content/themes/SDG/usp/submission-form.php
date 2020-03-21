@@ -25,25 +25,7 @@ else :
 			echo '<div id="usp-success-message">'. $usp_options['success-message'] .'</div>';
 		else :
 		
-		if (($usp_options['usp_name'] == 'show' || $usp_options['usp_name'] == 'optn') && ($usp_display_name)) { ?>
-		
-		<fieldset class="usp-name">
-			<label for="user-submitted-name"><?php esc_html_e('Your Name', 'usp'); ?></label>
-			<input id="user-submitted-name" name="user-submitted-name" type="text" value="" placeholder="<?php esc_attr_e('Your Name', 'usp'); ?>"<?php if (usp_check_required('usp_name')) echo $usp_required; ?> class="usp-input">
-		</fieldset>
-		<?php } if (($usp_options['usp_url'] == 'show' || $usp_options['usp_url'] == 'optn') && ($usp_display_url)) { ?>
-		
-		<fieldset class="usp-url">
-			<label for="user-submitted-url"><?php esc_html_e('Your URL', 'usp'); ?></label>
-			<input id="user-submitted-url" name="user-submitted-url" type="url" data-parsley-type="url" value="" placeholder="<?php esc_attr_e('Your URL', 'usp'); ?>"<?php if (usp_check_required('usp_url')) echo $usp_required; ?> class="usp-input">
-		</fieldset>
-		<?php } if ($usp_options['usp_email'] == 'show' || $usp_options['usp_email'] == 'optn') { ?>
-		
-		<fieldset class="usp-email">
-			<label for="user-submitted-email"><?php esc_html_e('Your Email', 'usp'); ?></label>
-			<input id="user-submitted-email" name="user-submitted-email" type="email" data-parsley-type="email" value="" placeholder="<?php esc_attr_e('Your Email', 'usp'); ?>"<?php if (usp_check_required('usp_email')) echo $usp_required; ?> class="usp-input">
-		</fieldset>
-		<?php } if ($usp_options['usp_title'] == 'show' || $usp_options['usp_title'] == 'optn') { ?>
+		if ($usp_options['usp_title'] == 'show' || $usp_options['usp_title'] == 'optn') { ?>
 		
 		<fieldset class="usp-title">
 			<label for="user-submitted-title"><?php esc_html_e('Title', 'usp'); ?></label>
@@ -103,7 +85,7 @@ else :
 
 
 		<fieldset class="usp-category">
-			<label for="user-submitted-category"><?php esc_html_e('SDG', 'usp'); ?></label>
+			<label for="user-submitted-category"><?php esc_html_e('SDGs', 'usp'); ?></label>
 			<select id="user-submitted-category" name="user-submitted-category[]"<?php if (usp_check_required('usp_category')) echo $usp_required; echo $multiple_cats . $category_class; ?> data-placeholder="<?php esc_attr_e('Please select a category..', 'usp'); ?>">
 				<option value=""><?php esc_html_e('Please select a category..', 'usp'); ?></option>
 				<?php echo usp_get_cat_options(); ?>
@@ -177,7 +159,7 @@ else :
 			<input type="submit" class="usp-submit" id="user-submitted-post" name="user-submitted-post" value="<?php esc_attr_e('PUBLISH CHALLENGE', 'usp'); ?>">
 			<?php wp_nonce_field('usp-nonce', 'usp-nonce', false); ?>
 			
-		</div>
+		</div> 
 		<?php endif; ?>
 
 	</form>
